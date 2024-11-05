@@ -1,0 +1,39 @@
+body{
+    background: url(./bg.jpg);
+    background-size: cover;
+    z-index: -1;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+.row{
+    display: flex;
+    
+}
+
+.col{
+    height: 200px;
+    border: white solid 1px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10rem;
+}
+main{
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#name{
+    /* text-decoration:overline underline; */
+    border-bottom: white solid 3px;
+    /* padding: 10px; */
+}
